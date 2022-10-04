@@ -116,19 +116,41 @@ li {
   height: 50px;
   background-color: rgb(17,40,72);
 }
+.header-section .upper
+{
+  text-transform: uppercase;
+}
 .header-section .wrapper
 {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .header-section h1, p
 {
   color: white;
+  opacity: 0.5;
 }
-
-
-
-
+.right-head
+{
+  display: flex;
+    height: 45px;
+    width: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+.right-head p{
+  text-transform: capitalize;
+}
+.bar1, .bar2, .bar3
+{
+    display: block;
+    width: 20px;
+    height: 2px;
+    margin: 3px;
+    background-color: #fff;
+    opacity: 0.6;
+}
 /*=================================
   Header styling ends here
 =================================*/  
@@ -137,7 +159,12 @@ li {
   main styling starts here
 =================================*/
 
-
+.broadcast-section
+{
+  background-image: url(https://via.placeholder.com/1400x300.png?);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 
 
