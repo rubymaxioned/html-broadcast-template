@@ -275,6 +275,10 @@ p {
     color: white;
     opacity: 0.5;
 }
+.first-letter 
+{
+  text-transform: capitalize;
+}
 /*end of common*/
 .broadcast-section {
   height: 100vh;
@@ -395,8 +399,12 @@ background-color: rgb(42,46,59)
 .dolar-image-wrap
 {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 1fr 1fr 1fr;
   column-gap: 5%;
+}
+.dolar-image-wrap figcaption
+{
+  font-size: 11px;
 }
 .dolor-section
 {
@@ -436,12 +444,19 @@ footer .wrapper
 {
   padding-top: 5%;
 }
-/* .footer-social-link
+.footer-bottom-wrap
 {
-  color: red;
-} */
-
-.social-link{
+  padding: 10% 0;
+}
+.footer-social-link
+{
+  text-align: center;
+}
+.footer-social-link li 
+{
+  margin: 0 1%;
+}
+.social-links{
   text-indent: -9999px;
 }
 .twitter::before {
@@ -449,9 +464,39 @@ footer .wrapper
   font-family: "FontAwesome";
   text-indent: 0;
   float: left;
-  color: red;
+  color: #fff;
  }
- 
+ .facebook::before {
+  content: "\f09a";
+  font-family: "FontAwesome";
+  text-indent: 0;
+  float: left;
+  color: #fff;
+ }
+ .instagram::before {
+  content: "\f16d";
+  font-family: "FontAwesome";
+  text-indent: 0;
+  float: left;
+  color: #fff;
+ }
+ .notifi::before {
+  content: "\f0f3";
+  font-family: "FontAwesome";
+  text-indent: 0;
+  float: left;
+  color: #fff;
+ }
+ .footer-copy
+ {
+   font-size: 12px;
+   text-align: center;
+ }
+ .footer-copy p 
+ {
+   text-transform: capitalize;
+   padding-top: 1%;
+ }
 /*=================================
   footer styling ends here
 =================================*/
