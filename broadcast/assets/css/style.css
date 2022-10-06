@@ -299,6 +299,12 @@ p {
 }
 .broadcast-top-wrap h2 {
   font-size: 25px;
+  color: #fff;
+  font-weight: bold;
+}
+[title="Broad-dig"]
+{
+  font-weight: bold;
 }
 .broadcast-top-wrap p {
   margin: 25px;
@@ -365,13 +371,17 @@ p {
 {
   font-size: 13px;
     padding: 3%;
-    background-color: rgb(170,32,204);
-    border: 1px solid rgb(170,32,204);
+    background-color: rgb(41,56,63);
+    border: 1px solid rgb(41,56,63);
     border-radius: 5px;
     color: white;
     opacity: 0.8;
     width: 90%;
     margin: 2%;
+}
+.lorem-content-wrapper ul li.active
+{
+  background-color: rgb(170,32,204);
 }
 .lorem-content-wrapper ul li:first-child
 {
@@ -398,8 +408,7 @@ background-color: rgb(42,46,59)
 }
 .dolar-image-wrap
 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
   column-gap: 5%;
 }
 .dolar-image-wrap figcaption
@@ -502,6 +511,91 @@ footer .wrapper
 =================================*/
 
 /*media query starts*/
+@media (min-width: 320px) {
+  .right-head p {
+    display: none;
+  }
+  .right-head
+  {
+    justify-content: flex-end;
+  }
+  .sodale-images
+  {
+    flex-direction: column;
+  }
+  .lorem-content-wrapper
+  {
+  width: 100%;
+  }
+  .lorem-image-wrapper
+  {
+    width: 100%;
+  }
+  .content-image-wrapper 
+  {
+    flex-direction: column;
+  }
+  .dolar-image-wrap {
+    flex-direction: column;
+  }
+  .footer-top-wrapp
+  {
+    flex-direction: column;
+  }
+  .footer-content
+  {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-content .head-li 
+  {
+    padding-bottom: 3%;
+    padding-top: 5%;
+  }
+  .footer-content li:last-child
+  {
+    border-bottom: none;
+  }
+}
+
+/*media query for 768px*/
+@media (min-width: 768px) {
+  .right-head p {
+    display: block;
+  }
+  .sodale-images
+  {
+    flex-direction: row;
+  }
+  .content-image-wrapper
+  {
+    display: flex;
+    flex-direction: row;
+  }
+  .lorem-content-wrapper 
+  {
+    width: 35%;
+  }
+  .lorem-image-wrapper
+  {
+    width: 65%;
+  }
+  .dolar-image-wrap
+  {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .dolar-image-wrap li:last-child
+  {
+    padding-top: 5%;
+  }
+  .footer-top-wrapp
+  {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
 /*media query for 995px starts here*/
 @media only screen and (max-width: 995px) {
 }
