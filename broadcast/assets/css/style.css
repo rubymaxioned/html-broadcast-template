@@ -379,7 +379,7 @@ p {
     width: 90%;
     margin: 2%;
 }
-.lorem-content-wrapper ul li.active
+.lorem-content-wrapper ul li:hover
 {
   background-color: rgb(170,32,204);
 }
@@ -598,4 +598,8 @@ footer .wrapper
 }
 /*media query for 995px starts here*/
 @media only screen and (max-width: 995px) {
+  .dolar-image-wrap li:last-child 
+  {
+    padding: 0px;
+  }
 }
