@@ -409,7 +409,49 @@ padding-bottom: 8%;
 /*=================================
   footer styling starts here
 =================================*/
+footer
+{
+  background-color: rgb(2,11,19);
+}
+.footer-top-wrapp
+{
+  display: flex;
+  column-gap: 5%;
+}
+.footer-content .inn-li 
+{
+  color: white;
+  opacity: 0.5;
+  font-size: 12px;
+  padding: 5% 0;
+  border-bottom: 1px solid rgba(255,255,255,0.5)
+}
+.footer-content .head-li
+{
+  color: white;
+  font-size: 13px;
+    padding-bottom: 10%;
+}
+footer .wrapper
+{
+  padding-top: 5%;
+}
+/* .footer-social-link
+{
+  color: red;
+} */
 
+.social-link{
+  text-indent: -9999px;
+}
+.twitter::before {
+  content: "\f099";
+  font-family: "FontAwesome";
+  text-indent: 0;
+  float: left;
+  color: red;
+ }
+ 
 /*=================================
   footer styling ends here
 =================================*/
