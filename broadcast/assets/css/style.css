@@ -300,8 +300,8 @@ p {
 
 .sodals-section 
 {
-  height: 800px;
-  background-color: rgb(41,54,75);
+  background-color: rgb(34,53,61);
+  padding-bottom: 5%;
 }
 .top-wrap
 {
@@ -311,11 +311,13 @@ p {
 {
   font-size: 18px;
   color: white;
-  padding: 10% 0 5% 0;
+  padding-top: 10%;
+    padding-bottom: 5%;
 }
 .top-wrap p 
 {
   font-size: 13px;
+  padding-bottom: 5%;
 }
 .sodale-images
 {
@@ -325,6 +327,64 @@ p {
 {
   margin: 5%;
 }
+.sodale-images figcaption
+{
+  font-size: 12px;
+    text-align: center;
+    padding: 7%;
+    background-color: rgb(53,70,80);
+    color: white;
+    opacity: 0.5;
+}
+
+/*lorem-section*/
+.lorem-section 
+{
+  background-color: rgb(41,51,69);
+  padding-bottom: 7%;
+}
+.lorem-section .top-wrap  
+{
+  text-align: left;
+}
+.content-image-wrapper
+{
+  display: flex;
+}
+.lorem-content-wrapper
+{
+  width: 35%;
+}
+.lorem-content-wrapper ul li 
+{
+  font-size: 13px;
+    padding: 3%;
+    background-color: rgb(170,32,204);
+    border: 1px solid rgb(170,32,204);
+    border-radius: 5px;
+    color: white;
+    opacity: 0.8;
+    width: 90%;
+    margin: 2%;
+}
+.lorem-content-wrapper ul li:first-child
+{
+  margin-top: 5%;
+}
+.lorem-image-wrapper
+{
+  width: 65%;
+}
+.lorem-image-wrapper ul 
+{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.lorem-image-wrapper ul li
+{
+  margin: 5%;
+}
+
 
 /*=================================
   main styling ends here
