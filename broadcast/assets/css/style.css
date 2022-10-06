@@ -265,6 +265,17 @@ p {
   main styling starts here
 =================================*/
 
+/*common*/
+.sodale-images figcaption, .dolar-image-wrap figcaption
+{
+  font-size: 12px;
+    text-align: center;
+    padding: 7%;
+    background-color: rgb(53,70,80);
+    color: white;
+    opacity: 0.5;
+}
+/*end of common*/
 .broadcast-section {
   height: 100vh;
   background-image: url(https://via.placeholder.com/1400x300.png?);
@@ -327,15 +338,6 @@ p {
 {
   margin: 5%;
 }
-.sodale-images figcaption
-{
-  font-size: 12px;
-    text-align: center;
-    padding: 7%;
-    background-color: rgb(53,70,80);
-    color: white;
-    opacity: 0.5;
-}
 
 /*lorem-section*/
 .lorem-section 
@@ -385,7 +387,21 @@ p {
   margin: 5%;
 }
 
-
+/*dolor section*/
+.dolor-section
+{
+background-color: rgb(42,46,59)
+}
+.dolar-image-wrap
+{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 5%;
+}
+.dolor-section
+{
+padding-bottom: 8%;
+}
 /*=================================
   main styling ends here
 =================================*/
