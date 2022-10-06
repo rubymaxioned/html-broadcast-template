@@ -598,6 +598,10 @@ footer .wrapper
 }
 /*media query for 995px starts here*/
 @media only screen and (min-width: 995px) {
+  .broadcast-top-wrap h2 
+  {
+    font-size: 50px;
+  }
   .top-wrap h2{
   font-size: 30px;
   }
@@ -605,8 +609,32 @@ footer .wrapper
   {
     font-size: 18px;
   }
+  [title="Broad-dig"]
+  {
+    font-size: 20px;
+  }
+  .broadcast-top-wrap p 
+  {
+    margin: 35px;
+  }
   .header-section {
     height: 48px;
+  }
+  .sodale-images figcaption, .dolar-image-wrap figcaption
+  {
+    font-size: 18px;
+  }
+  .lorem-content-wrapper 
+  {
+    width: 30%;
+  }
+  .lorem-content-wrapper li 
+  {
+    font-size: 16px;
+  }
+  .dolar-image-wrap 
+  {
+    
   }
   .footer-bottom-wrap h2
   {
